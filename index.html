@@ -554,12 +554,15 @@
           </div>
 
           <div class="form-group-checkbox" role="group">
-            <input type="checkbox" name="policy" id="policy" checked />
-            <label for="policy"
-              >Соглашаюсь с рассылкой и принимаю<a class="link" href="./"
-                >Условия договора</a
-              ></label
-            >
+            <label class="label" for="policy">
+              <input class="checkbox" type="checkbox" name="policy" id="policy" />
+              <div class="custom-checkbox">
+                <svg class="custom-icon" width="11" height="8">
+                  <use href="./img/sprite.svg#modal-check"></use>
+                </svg>
+              </div>
+              Соглашаюсь с рассылкой и принимаю<a class="link" href="./">Условия договора</a>
+            </label>
           </div>
 
           <button class="form-btn btn" type="submit">Отправить</button>
