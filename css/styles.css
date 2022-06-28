@@ -605,6 +605,7 @@ p {
   top: 8px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -629,9 +630,9 @@ p {
 }
 
 .modal-form {
-  width: 448px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-right: 0;
+  padding: 40px;
 }
 .modal .form-group {
   position: relative;
@@ -641,6 +642,7 @@ p {
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: #757575;
+  cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal .form-group:not(:first-child) {
@@ -657,6 +659,10 @@ p {
 }
 .form-group:hover .icon {
   fill: var(--accent-color);
+}
+.form-group:focus .icon {
+  color: var(--accent-color);
+  fill: #188ce8;
 }
 .form-group .icon {
   position: absolute;
