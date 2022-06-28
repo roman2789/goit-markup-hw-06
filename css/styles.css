@@ -608,7 +608,8 @@ p {
   border-radius: 50%;
 }
 
-.modal-close:hover .close {
+.modal-close:hover .close,
+.modal-close:focus .close {
   fill: var(--accent-color);
 }
 
@@ -642,7 +643,9 @@ p {
   margin-top: 10px;
 }
 .form-group:hover input,
-.form-group:hover textarea {
+.form-group:focus input,
+.form-group:hover textarea,
+.form-group:focus textarea {
   border-color: var(--accent-color);
 }
 .form-group:hover svg {
