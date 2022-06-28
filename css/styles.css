@@ -657,13 +657,11 @@ p {
 .form-group:focus .textarea {
   border-color: var(--accent-color);
 }
-.form-group:hover .icon {
+.form-group:hover .icon,
+.form-group:focus-within .icon {
   fill: var(--accent-color);
 }
-.form-group:focus .icon {
-  color: var(--accent-color);
-  fill: #188ce8;
-}
+
 .form-group .icon {
   position: absolute;
   bottom: 14px;
