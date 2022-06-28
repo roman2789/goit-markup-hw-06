@@ -611,7 +611,7 @@ p {
 }
 
 .modal-close .close {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 255ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover .close,
