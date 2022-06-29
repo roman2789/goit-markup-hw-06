@@ -512,38 +512,33 @@
         <h2 class="modal-title">Залишіть свої дані, ми вам передзвонимо</h2>
         <form class="modal-form" name="subscriptio-form" autocomplete="on" novalidate>
           <div class="form-group">
-            <label class="form-label" for="name">
-              Ім'я
-              <svg class="icon" width="12" height="12">
-                <use href="./img/sprite.svg#modal-name"></use>
-              </svg>
-            </label>
+            <label class="form-label" for="name">Ім'я</label>
             <input class="form-input" type="text" name="name" id="name" />
+            <svg class="icon" width="12" height="12">
+              <use href="./img/sprite.svg#modal-name"></use>
+            </svg>
           </div>
 
           <div class="form-group" role="group">
-            <label for="tel">
-              Телефон
-              <svg class="icon" width="13" height="13">
-                <use href="./img/sprite.svg#modal-phone"></use></svg
-            ></label>
-            <input type="tel" name="tel" id="tel" />
+            <label class="form-label" for="tel">Телефон</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
+            <svg class="icon" width="13" height="13">
+              <use href="./img/sprite.svg#modal-phone"></use>
+            </svg>
           </div>
 
           <div class="form-group" role="group">
-            <label for="mail">
-              Пошта
-              <svg class="icon" width="15" height="12">
-                <use href="./img/sprite.svg#modal-mail"></use>
-              </svg>
-            </label>
-            <input type="email" name="mail" id="mail" />
+            <label class="form-label" for="mail">Пошта</label>
+            <input class="form-input" type="email" name="mail" id="mail" />
+            <svg class="icon" width="15" height="12">
+              <use href="./img/sprite.svg#modal-mail"></use>
+            </svg>
           </div>
 
           <div class="form-group" role="group">
-            <label for="comment">Коментарій</label>
+            <label class="form-label" for="comment">Коментарій</label>
             <textarea
-              class="textarea"
+              class="textarea form-input"
               name="comment"
               id="comment"
               rows="10"
@@ -559,7 +554,6 @@
               <a class="link" href="./">Умови договору</a>
             </label>
           </div>
-
           <button class="form-btn btn" type="submit">Відправити</button>
         </form>
       </div>
