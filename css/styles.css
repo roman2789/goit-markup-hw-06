@@ -722,13 +722,15 @@ p {
   width: 16px;
   height: 15px;
   background-color: transparent;
+  background-image: url(../img/icons/modal-check.svg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-origin: border-box;
   border: 1px solid #212121;
   border-radius: 2px;
   pointer-events: none;
-}
-
-.custom-checkbox .custom-icon {
-  fill-opacity: 0;
 }
 
 .checkbox:checked + .custom-checkbox .custom-icon {
