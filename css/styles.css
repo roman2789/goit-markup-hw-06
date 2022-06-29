@@ -208,7 +208,7 @@ p {
 
 .features-list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 30px;
 }
 
